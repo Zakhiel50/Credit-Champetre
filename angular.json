@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Credit-Champetre:build:production"
+              "buildTarget": "Credit-Champetre:build:production"
             },
             "development": {
-              "browserTarget": "Credit-Champetre:build:development"
+              "buildTarget": "Credit-Champetre:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Credit-Champetre:build"
+            "buildTarget": "Credit-Champetre:build"
           }
         },
         "test": {
